@@ -1,0 +1,7 @@
+
+”	java:S1354"YReduce the total number of break and continue statements in this loop to use at most one.(‡ÌÈJ$9c1c8981-48b2-4f1a-b60f-164b2d1c471b
+“
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ã¾ëîúÿÿÿÿJ$ecfcec59-2d03-419e-8495-b54716dd2643
+w	java:S125z"<This block of commented-out lines of code should be removed.(ÙÇòÇJ$1b2b7990-9f4d-43a6-a63b-fe96a6c034d8
+…
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Æ§™šJ$22e32efa-a923-4910-95da-0add24558992
