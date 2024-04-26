@@ -1,4 +1,5 @@
 
-›	java:S1353"YReduce the total number of break and continue statements in this loop to use at most one.(‡ÌÈ8ŒÄÙÅñ1J$cde0d41b-482d-402e-aa5a-8162f486d036
-Œ
-java:S5361„"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Æ§™š8ÄÄÙÅñ1J$64303020-fe15-468e-a4d9-5d429d9893af
+›	java:S135<"YReduce the total number of break and continue statements in this loop to use at most one.(‡ÌÈ8˜ç·Êñ1J$0c9ffd79-63d7-4cf9-80dd-b9b9ec4ba7af
+r	java:S106"+Replace this use of System.out by a logger.(£¥ñ¸úÿÿÿÿ8Ãç·Êñ1J$54acf7c0-37bd-4489-94fb-593923f0650c
+‹
+java:S5361~"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Æ§™š8§ÔÁÊñ1J$28a4f0ba-909d-4b0d-bf26-eed882f7332b

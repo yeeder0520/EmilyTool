@@ -27,15 +27,13 @@ public class Main {
       int option = fileChooser.showOpenDialog(frame);
       if (option == JFileChooser.APPROVE_OPTION) {
         File[] selectedFiles = fileChooser.getSelectedFiles();
-        for (File file : selectedFiles) {
-          // 處理每個選擇的檔案
-          JOptionPane.showMessageDialog(frame,
-                                        "上傳成功，檔案會產出在跟您選擇檔案一樣的位置唷！♥♥");
-          // 這裡可以添加調用處理 PDF 檔案的方法
-          try {
-            handleFile(file);
-          } catch (IOException ignored) {
-          }
+        // 處理每個選擇的檔案
+        JOptionPane.showMessageDialog(frame,
+                                      "上傳成功，檔案會產出在跟您選擇檔案一樣的位置唷！♥♥");
+        // 這裡可以添加調用處理 PDF 檔案的方法
+        try {
+          handleFile(selectedFiles);
+        } catch (IOException ignored) {
         }
         JOptionPane.showMessageDialog(frame, "執行完畢");
       }
@@ -48,11 +46,12 @@ public class Main {
     frame.setVisible(true);
   }
 
-  private static void handleFile(File file) throws IOException {
+  private static void handleFile(File[] file) throws IOException {
     // 在這裡處理文件，例如讀取或處理 PDF
     ExtractDataToWord extractor = new ExtractDataToWord();
-    extractor.execute(file.getAbsolutePath());
+    extractor.execute(file);
   }
+
 
 
 }
