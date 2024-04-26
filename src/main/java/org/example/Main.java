@@ -37,8 +37,8 @@ public class Main {
           } catch (IOException ignored) {
           }
         }
+        JOptionPane.showMessageDialog(frame, "執行完畢");
       }
-      JOptionPane.showMessageDialog(frame, "執行完畢");
 
     });
 

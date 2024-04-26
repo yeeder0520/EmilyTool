@@ -56,3 +56,7 @@ Q.idea/sonarlint/securityhotspotstore/7/7/7761bc9c0f5dd934e065a29300eb1c80bcfd6b
 Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9\0\909762385fc6eb20f922a91c6865741308b57f2c
 Å
 Q.idea/sonarlint/securityhotspotstore/8/6/863e0292fd7e9b3e74dafd6cc01f73ba76346482,0\c\0c4799549ebca80c86406fd218445fef27b61acc
+9
+	Readme.md,0\c\0c1945d7443c2e154bd3e421c0d438bd4086d8c3
+Q
+!.idea/artifacts/EmilyTool_jar.xml,7\a\7aefe7dda9841a64ba08705a99a2c31dbe59e4e9
