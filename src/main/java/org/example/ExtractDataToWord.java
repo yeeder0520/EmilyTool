@@ -60,17 +60,6 @@ public class ExtractDataToWord {
           e.printStackTrace();
         }
       });
-
-//      String[] parts = result.split("\\s+");
-//        XWPFTable table = resultDoc.createTable();
-//        setupTable(table);
-//
-//        XWPFTableRow row = table.createRow();
-//        fillTable(parts, row, table);
-//        resultDoc.createParagraph()
-//            .createRun()
-//            .addBreak();
-
       saveDocument(resultDoc, pdfFiles[0].getParent());
     }
   }
@@ -153,7 +142,7 @@ public class ExtractDataToWord {
     doc.close();
   }
 
-  private String getPdfContent(String pdfFilePath) throws IOException {
+  private void getPdfContent(String pdfFilePath) throws IOException {
     String result;
     File file = new File(pdfFilePath);
     PDFParser parser = new PDFParser(new RandomAccessFile(file, "rw"));
@@ -180,7 +169,6 @@ public class ExtractDataToWord {
         carNumberData.get(carNumber)
             .add(result);
       }
-      return result;
     }
   }
 }
